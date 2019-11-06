@@ -1,4 +1,4 @@
-# olympics-client-new
+# olympics-client
 
 ## Project setup
 ```

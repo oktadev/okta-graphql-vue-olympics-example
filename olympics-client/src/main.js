@@ -30,7 +30,9 @@ const authMiddleware = setContext(() =>
 new Vue({
   router,
   apolloProvider: createProvider({
-    link: authMiddleware.concat(createHttpLink({uri: 'http://localhost:8081/graphql'}))
+    httpEndpoint: 'http://localhost:8081/graphql',
+    link: authMiddleware,
+    wsEndpoint: undefined
   }),
   render: h => h(App)
 }).$mount('#app');

@@ -5,7 +5,6 @@ import Olympics from './views/Olympics.vue'
 import Auth from '@okta/okta-vue'
 
 const authGuard = async function(to, from, next) {
-  console.log(to);
   const authenticated = await router.app.$auth.isAuthenticated();
   if (authenticated) {
     next();
@@ -27,13 +26,7 @@ const router = new Router({
       component: Home
     },
     {
-      path: '/olympics',
-      name: 'olympics',
-      component: Olympics,
-      beforeEnter: authGuard
-    },
-    {
-      path: '/olympics/:offset',
+      path: '/olympics/:offset?',
       name: 'olympics',
       component: Olympics,
       beforeEnter: authGuard
