@@ -1,29 +1,14 @@
 {
-  "name": "graphql-angular-demo",
+  "name": "olympics-server",
   "version": "1.0.0",
-  "description": "The server for the GraphQL Angular demo",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index",
-    "watch": "nodemon --watch 'index.js src/**/*.js'"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/holgerschmitz/graphql-angular.git"
-  },
-  "keywords": [
-    "GraphQL",
-    "Vue",
-    "Okta",
-    "express",
-    "node"
-  ],
-  "author": "Holger Schmitz",
-  "license": "GPL-3.0-or-later",
-  "bugs": {
-    "url": "https://github.com/holgerschmitz/graphql-angular/issues"
-  },
-  "homepage": "https://github.com/holgerschmitz/graphql-angular#readme",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
     "@okta/jwt-verifier": "1.0.0",
     "body-parser": "1.19.0",
@@ -32,10 +17,6 @@
     "express": "4.17.1",
     "express-bearer-token": "2.4.0",
     "express-graphql": "0.9.0",
-    "graphql": "14.4.2",
-    "sqlite3": "4.1.0"
-  },
-  "devDependencies": {
-    "nodemon": "1.19.1"
+    "graphql": "14.4.2"
   }
 }

@@ -28,7 +28,7 @@
 <script>
 export default {
   data: () => ({
-    authenticated: false,
+    authenticated: () => { return false; },
   }),
   computed: {
     isAuthenticated: function () {

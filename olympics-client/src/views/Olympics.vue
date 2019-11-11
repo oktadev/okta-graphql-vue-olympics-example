@@ -27,7 +27,7 @@
         </tr>
       </thead>
       <tbody>
-        <tr v-for="event in events" v-bind:key="event">
+        <tr v-for="event in events" v-bind:key="event.id">
           <td>{{event.sport}}</td>
           <td>{{event.event}}</td>
           <td>{{event.name}}</td>
