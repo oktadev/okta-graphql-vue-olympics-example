@@ -1,4 +1,4 @@
-# Secure Vue + GraphQL Example
+# Secure GraphQL + Vue Example
 
 This example app shows how to use GraphQL and Vue.js to build a Olympic Events app and add authentication with Okta.
 
