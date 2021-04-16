@@ -32,7 +32,7 @@ const router = new Router({
       beforeEnter: authGuard
     },
     {
-      path: '/implicit/callback',
+      path: '/callback',
       component: Auth.handleCallback()
     }
   ]
