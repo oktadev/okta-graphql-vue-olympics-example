@@ -68,7 +68,7 @@ For the client, set the `issuer` and `client_id` in `olympics-client/main.js`.
 Vue.use(Auth, {
   issuer: 'https://{yourOktaDomain}/oauth2/default',
   client_id: '{yourClientId}',
-  redirect_uri: 'http://localhost:8080/implicit/callback',
+  redirect_uri: 'http://localhost:8080/callback',
   pkce: true
 });
 ```
