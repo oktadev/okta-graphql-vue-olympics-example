@@ -14,7 +14,7 @@ Vue.use(BootstrapVue);
 Vue.use(Auth, {
   issuer: 'https://dev-322018.oktapreview.com/oauth2/default',
   client_id: '0oaj1ntwqaajDQ3Ih0h7',
-  redirect_uri: 'http://localhost:8080/implicit/callback'
+  redirect_uri: 'http://localhost:8080/callback'
 });
 
 const authMiddleware = setContext(() =>
